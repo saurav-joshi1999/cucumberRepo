@@ -13,6 +13,7 @@ public class StepDefination {
 	@Given("^User is on NetBanking login page$")
 	public void User_is_on_NetBanking_login_page() throws Throwable {
 		System.out.println("Nevigate to Login Page");
+		System.out.println("This for Cucumber git purpose");
 	}
 
 	@When("^User login to application with username \"([^\"]*)\" and password  \"([^\"]*)\"$")
@@ -20,7 +21,6 @@ public class StepDefination {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println(arg1);
 		System.out.println(arg2);
-
 	}
 
 
