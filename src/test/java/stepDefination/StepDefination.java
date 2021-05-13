@@ -14,6 +14,7 @@ public class StepDefination {
 	public void User_is_on_NetBanking_login_page() throws Throwable {
 		System.out.println("Nevigate to Login Page");
 		System.out.println("This for Cucumber git purpose");
+		System.out.println("This done by Cucumber main");
 	}
 
 	@When("^User login to application with username \"([^\"]*)\" and password  \"([^\"]*)\"$")
