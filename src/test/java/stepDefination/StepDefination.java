@@ -41,4 +41,29 @@ public class StepDefination {
 	    // Write code here that turns the phrase above into concrete actions
 		System.out.println("Futher Cucumber git test by Cucumber main");
 	}
+	
+	@Given("^This is for develop branch$")
+	public void this_is_for_develop_branch() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+           System.out.println("Cucumber main Feature Changes");
+	}
+
+	@When("^After developing wiil be merged with main$")
+	public void after_developing_wiil_be_merged_with_main() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		 System.out.println("Cucumber main Feature Changes");
+	}
+
+	@Then("^Check if mergerd or not$")
+	public void check_if_mergerd_or_not() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		 System.out.println("Cucumber main Feature Changes");
+	}
+
+	@Then("^Also deployed to cucumberRepo$")
+	public void also_deployed_to_cucumberRepo() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		 System.out.println("Cucumber main Feature Changes");
+	}
+
 }
