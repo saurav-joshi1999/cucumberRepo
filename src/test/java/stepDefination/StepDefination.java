@@ -35,4 +35,10 @@ public class StepDefination {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println(arg1);
 	}
+	
+	@Then("^This is Cucumber Git Test$")
+	public void this_is_Cucumber_Git_Test() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("Futher Cucumber git test by Cucumber main");
+	}
 }
